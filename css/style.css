@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    width: 16rem;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 3rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+.footer ul a:hover{
+    color: darkslategrey;
+}
+
+
+@media (min-width: 480px) {
+    .image-container {   
+        background-image: url('../img/profile2.jpg');
+     }
+
+    .container {
+        width: 100%;
+        background-color: teal;
+        color: azure;
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border: 1px solid azure;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+    .footer ul a {
+        color:azure;
+    }
+
+    .footer ul a:hover{
+        color: chartreuse;
+    }
+    
+    
+}
+
+
+@media (min-width: 768px) {
+
+    .image-container {   
+        background-image: url('../img/profile3.jpg');
+     }
+
+     .container {
+        background-color: chocolate;
+        color: rgb(252, 231, 219);
+    }
+
+    .footer ul a {
+        color:rgb(252, 231, 219);
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(252, 231, 219);
+    }
+    .footer ul a:hover{
+        color:darkred;
+    }
+    .main-container {
+        width: 75%;
+    }
+
+
+}
+
+
+@media (min-width: 1024px){
+    .image-container {   
+        background-image: url('../img/profile4.jpg');
+     }
+
+     .container {
+        background-color:maroon;
+        color: rgb(249, 195, 195);
+    }
+
+    .footer ul a {
+        color:rgb(249, 195, 195);
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(249, 195, 195);
+    }
+    .footer ul a:hover{
+        color: azure;
+    }
+    .main-container {
+        width: 75%;
+    }
+
+
+}
+
+
+@media (min-width: 1200px){
+
+    .image-container {   
+        background-image: url('../img/profile1.jpg');
+     }
+
+     .container {
+        background-color:slategrey;
+        color:rgb(233, 233, 233);
+    }
+
+    .footer ul a {
+        color:rgb(229, 229, 229);
+    }
+
+    .footer ul a:hover{
+        color: rgb(108, 114, 114);
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+        border: 1px solid rgb(225, 225, 225);
+
+    
+    .navigation ul li:not(:last-child) {
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
